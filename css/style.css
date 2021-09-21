@@ -4,8 +4,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    height: 120px;
+}
+header ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+li:last-child{
+    margin-right: 40px;
+}
+ul{
+    height: 110px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 20px;
+    padding: 25px;
+}
 .box{
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+}
+
+.overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+.box:hover .overlay{
+    background-color: rgba(0, 0, 0, 0);
+}
+.center{
+    text-align: center;
+}
+.yellow{
+    color: yellow;
+    font-size: 40px;
+}
+.uno{
     background-color: red;
+}
+.due{
+    background-color: green;
+}
+.tre{
+    background-color: yellow;
+}
+.green{
+    color: green;
 }

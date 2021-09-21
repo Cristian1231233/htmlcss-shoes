@@ -25,7 +25,6 @@ header ul li{
     background-color: white;
     border-radius: 50%;
     margin-top: 50px;
-    
 }
 
 li:last-child{
@@ -50,15 +49,12 @@ li:hover a{
     height: 100vh; 
 }
 
-.overlay{
-    height: 100%;
-    background-color: rgba(0, 0, 0, .5);
-}
-.box:hover .overlay{
-    background-color: rgba(0, 0, 0, 0);
-}
 .center{
     text-align: center;
+     
+}
+img{
+    width: 50%;
 }
 .yellow{
     color: yellow;
